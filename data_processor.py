@@ -1,7 +1,10 @@
 import pandas as pd
 import os
 
-DATA_PATH = "India-Census-2011-Analysis-master/india-districts-census-2011.csv"
+# Try local nested path first, then try root path for GitHub deployments
+path_nested = "India-Census-2011-Analysis-master/india-districts-census-2011.csv"
+path_root = "india-districts-census-2011.csv"
+DATA_PATH = path_nested if os.path.exists(path_nested) else path_root
 
 def load_and_process_data():
     """Loads the census dataset and engineers features for analysis."""

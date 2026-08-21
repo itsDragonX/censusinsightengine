@@ -19,7 +19,12 @@ def get_data():
 def get_geo_data():
     # Load shapefile (simplified for performance)
     try:
-        gdf = gpd.read_file("India-Census-2011-Analysis-master/India_SHP/INDIA.shp")
+        import os
+        path_nested = "India-Census-2011-Analysis-master/India_SHP/INDIA.shp"
+        path_root = "India_SHP/INDIA.shp"
+        shp_path = path_nested if os.path.exists(path_nested) else path_root
+        
+        gdf = gpd.read_file(shp_path)
         return gdf
     except Exception as e:
         st.warning("Could not load shapefiles for map visualization.")
