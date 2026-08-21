@@ -2,9 +2,8 @@
 
 An interactive, data-driven intelligence engine built to analyze historical census data, estimate demographic shifts, and identify emerging gaps in public infrastructure across India. 
 
-**[View the Live Application on Streamlit Cloud!](#)** *(Replace this with your actual Streamlit link!)*
+https://censusinsightengine-lvxsunxmol8ctvkzjyhpjk.streamlit.app/
 
----
 
 ## 🚀 The Challenge
 Census data is collected at a massive scale, but populations change rapidly. Governments need better ways to understand shifting demographics and prioritize where essential services (like schools, healthcare, and digital connectivity) will be most needed. 
