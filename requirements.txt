@@ -5,3 +5,5 @@ geopandas
 streamlit
 plotly
 matplotlib
+fastapi
+uvicorn

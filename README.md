@@ -2,7 +2,7 @@
 
 An interactive, data-driven intelligence engine built to analyze historical census data, estimate demographic shifts, and identify emerging gaps in public infrastructure across India. 
 
-https://censusinsightengine-lvxsunxmol8ctvkzjyhpjk.streamlit.app/
+**[View the Live Application on Streamlit Cloud!](#)** *(Replace this with your actual Streamlit link!)*
 
 ---
 
